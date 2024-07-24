@@ -4,7 +4,7 @@ import zipfile
 from textSummarizer.logging import logger
 from textSummarizer.utils.common import get_size
 from pathlib import Path
-from textSummarizer.entity import DataIngestionEntity
+from textSummarizer.entity import DataIngestionConfig
 
 
 class DataIngestion:
